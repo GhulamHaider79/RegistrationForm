@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <h2>Registration Form</h2>
-        <form>
+        <form onsubmit="registration  (); return false">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
 
@@ -25,7 +25,7 @@
             <label for="retypPassword">Confirm Password:</label>
             <input type="password" id="retypPassword" name="retypPassword" required>
 
-            <button type="button" onclick="getFormInput()">Submit</button>
+            <button type="button" onclick="registration ()">Submit</button>
         </form>
     </div>
 
