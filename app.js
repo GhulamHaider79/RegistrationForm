@@ -1,4 +1,4 @@
-function registration() {
+    function registration() {
     // Get form elements by ID
     var usernameInput = document.getElementById('name').value;
     var numberInput = document.querySelector('#number').value;
